@@ -6,8 +6,7 @@
     class="login-form"
     @submit="handleSubmit"
   >
-    <a-form-item 
-          >
+    <a-form-item >
       <a-input
         v-decorator="[
           'userName',
@@ -108,7 +107,7 @@ export default {
 </script>
 <style scoped>
   #logon{
-    width: 100%;
+    width: 60%;
   }
 
 
